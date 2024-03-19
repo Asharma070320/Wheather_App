@@ -184,7 +184,7 @@ img {
 /*-- Index-Page-Styling --*/
 
 body {
-  background: url("https://wallpapers.com/images/high/weather-and-sky-ox5oo5bs2hbv7wz0.webp");
+  background: url("./images/background.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
@@ -216,25 +216,22 @@ h1 {
 
 .container {
   width: 65%;
-  height: 90vh;
-  /* margin: 50px auto; */
-  margin-left: 16rem;
-  margin-top: 1.7rem;
+  height: 82.3vh;
+  margin: 50px auto;
   background-color: rgba(5, 5, 5, 0.73);
-  /* border: 2px solid red; */
 }
 
 .city {
   width: 60%;
   height: 100%;
   float: left;
-  background: url("https://wallpapers.com/images/thumbnail/snowy-weather-in-city-tb69n17frxerk0kx.webp");
+  background: url("./images/city.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  min-height: 450px;
+  min-height: 500px;
   position: relative;
   background-position-x: -30px;
   /* border: 2px solid red; */
@@ -545,6 +542,10 @@ div#txt {
   .temperature {
     text-align: center;
     width: 100%;
+    
+  }
+  .current-time, .current-date {
+    display: none;
   }
   .copyright {
     padding: 20px;
@@ -552,6 +553,7 @@ div#txt {
   .temperature p {
     font-size: 60px;
     padding-bottom: 15px;
+    /* margin-bottom: 80px; */
   }
   .forecast-icon img {
     width: 65px;
